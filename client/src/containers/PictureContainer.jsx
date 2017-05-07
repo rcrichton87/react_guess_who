@@ -9,7 +9,7 @@ class PictureContainer extends React.Component{
 
   render(){
     const allPictures = this.props.people.map( (person, index) => {
-      return( <Picture name={person.name} image={person.image} key={index}/> )
+      return( <Picture person={person} key={index}/> )
     })
 
     const row1 = allPictures.slice(0, 5);

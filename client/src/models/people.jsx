@@ -6,7 +6,8 @@ const people = [
     hair: "None",
     facialHair: "No",
     gender: "Droid",
-    image: "/images/bb-8.jpg"
+    image: "/images/bb-8.jpg",
+    eliminated: false
   },
   {
     name: "C-3PO",
@@ -15,7 +16,8 @@ const people = [
     hair: "None",
     facialHair: "No",
     gender: "Droid",
-    image: "/images/c-3po.jpg"
+    image: "/images/c-3po.jpg",
+    eliminated: false
   },
   {
     name: "Chewie",
@@ -24,7 +26,8 @@ const people = [
     hair: "Brown",
     facialHair: "Yes",
     gender: "Male",
-    image: "/images/chewie.jpg"
+    image: "/images/chewie.jpg",
+    eliminated: false
   },
   {
     name: "Finn",
@@ -33,7 +36,8 @@ const people = [
     hair: "Black",
     facialHair: "No",
     gender: "Male",
-    image: "/images/finn.jpg"
+    image: "/images/finn.jpg",
+    eliminated: false
   },
   {
     name: "Han Solo",
@@ -42,7 +46,8 @@ const people = [
     hair: "Brown",
     facialHair: "No",
     gender: "Male",
-    image: "/images/han.jpg"
+    image: "/images/han.jpg",
+    eliminated: false
   },
   {
     name: "Kylo Ren",
@@ -51,7 +56,8 @@ const people = [
     hair: "Brown",
     facialHair: "No",
     gender: "Male",
-    image: "/images/kylo.jpg"
+    image: "/images/kylo.jpg",
+    eliminated: false
   },
   {
     name: "Lando Calrissian",
@@ -60,7 +66,8 @@ const people = [
     hair: "Black",
     facialHair: "Yes",
     gender: "Male",
-    image: "/images/lando.jpg"
+    image: "/images/lando.jpg",
+    eliminated: false
   },
   {
     name: "Leia Organa",
@@ -69,7 +76,8 @@ const people = [
     hair: "Brown",
     facialHair: "No",
     gender: "Female",
-    image: "/images/leia.jpg"
+    image: "/images/leia.jpg",
+    eliminated: false
   },
   {
     name: "Luke Skywalker",
@@ -78,7 +86,8 @@ const people = [
     hair: "Blond",
     facialHair: "No",
     gender: "Male",
-    image: "/images/luke.jpg"
+    image: "/images/luke.jpg",
+    eliminated: false
   },
   {
     name: "Obi-Wan Kenobi",
@@ -87,7 +96,8 @@ const people = [
     hair: "Grey",
     facialHair: "Yes",
     gender: "Male",
-    image: "/images/obi-wan.jpg"
+    image: "/images/obi-wan.jpg",
+    eliminated: false
   },
   {
     name: "Poe Dameron",
@@ -96,7 +106,8 @@ const people = [
     hair: "Black",
     facialHair: "No", 
     gender: "Male",
-    image: "/images/poe.jpg"
+    image: "/images/poe.jpg",
+    eliminated: false
   },
   {
     name: "R2-D2",
@@ -105,7 +116,8 @@ const people = [
     hair: "None",
     facialHair: "No",
     gender: "Droid",
-    image: "/images/r2-d2.jpg"
+    image: "/images/r2-d2.jpg",
+    eliminated: false
   },
   {
     name: "Rey",
@@ -114,7 +126,8 @@ const people = [
     hair: "Brown",
     facialHair: "No",
     gender: "Female",
-    image: "/images/rey.jpg"
+    image: "/images/rey.jpg",
+    eliminated: false
   },
   {
     name: "Darth Vader",
@@ -123,7 +136,8 @@ const people = [
     hair: "None",
     facialHair: "No",
     gender: "Male",
-    image: "/images/vader.jpg"
+    image: "/images/vader.jpg",
+    eliminated: false
   },
   {
     name: "Yoda",
@@ -132,7 +146,8 @@ const people = [
     hair: "Grey",
     facialHair: "No",
     gender: "Male",
-    image: "/images/yoda.jpg"
+    image: "/images/yoda.jpg",
+    eliminated: false
   },
 ]
  export default people

@@ -20,11 +20,17 @@ class GuessAttributeContainer extends React.Component{
     this.setState({attribute: newAttribute})
   }
 
+  handleSubmit(event){
+    event.preventDefault()
+    this.props.onFormSubmit(this.state.attribute, this.state.attributeType)
+  }
+
   render(){
     return(
-      <form>
+      <form onSubmit={this.handleSubmit.bind(this)}>
         <AttributeTypeSelect people={this.props.people} onSelect={this.onAttributeTypeSelect.bind(this)}/>
         <AttributeSelect attributeType={this.state.attributeType} people={this.props.people} onSelect={this.onAttributeSelect.bind(this)}/>
+        <input type="submit" value="Ask" />
       </form>
     )
   }
