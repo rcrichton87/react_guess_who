@@ -1,17 +1,58 @@
+html { 
+  background: url(/images/background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+
 .row{
   display: flex;
   justify-content: space-between;
 }
 
 .guesswho{
-  border: 1px solid black;
+  border: 2px solid #59ABE0;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
+  background-color: #ffffff;
 }
 
 .guesswho-image{
   max-height: 120px;
   max-width: 120px;
+}
+
+.eliminated-name{
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.selector-row{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-right: 20px;
+}
+
+.selectors{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  background-color: #17191D;
+  border: 1px solid #59ABE0;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.submit-button{
+  margin-right: 20px;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
 }
