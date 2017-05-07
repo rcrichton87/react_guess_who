@@ -33,7 +33,7 @@ const people = [
     hair: "Black",
     facialHair: false,
     gender: "Male",
-    image: "/images/kylo.jpg"
+    image: "/images/finn.jpg"
   },
   {
     name: "Han Solo",
