@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GuessWhoContainer from './containers/GuessWhoContainer';
 
 window.onload = function(){
   ReactDOM.render(
-    <h1> App Started </h1>,
+    <GuessWhoContainer/>,
     document.getElementById('app')
   );
 }
